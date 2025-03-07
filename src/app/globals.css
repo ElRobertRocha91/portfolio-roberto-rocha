@@ -7,6 +7,7 @@
   --foreground: #171717;
   --text-header: #00ffee;
   --background-header:rgba(0, 0, 0, 0.3);
+  --background-image: rgba(3, 215, 247, 0.886);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,5 +25,5 @@ body {
 
 .text-shadow-header {
   text-shadow: 0 0 25px var(--text-header);
-  color: #00ffee;
+  color: #00ffee; 
 }
